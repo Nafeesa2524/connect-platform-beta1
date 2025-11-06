@@ -1,0 +1,35 @@
+# connect-platform-beta1
+## Team Name: Beta1
+## Team Members
+- Nafeesa Shameem - Nafeesa2524
+- Siri Virshini Maruboina - sirivarshini-maruboina
+- Sara Yeamin Khan - CodesBySara
+- Uswa Tariq - Uswa729
+## Project Description
+SwipeHire helps students find short-term projects and helps small companies post technical tasks. This page introduces the platform and encourages users to sign up.
+implements. (Refer to BMC document)
+## Pages Implemented
+1. Landing Page (index.html)
+2. Student Dashboard (student-dashboard.html)
+3. Company Dashboard (company-dashboard.html)
+4. Project Listings (projects.html)
+## Technologies Used
+- HTML5
+- CSS3 (Flexbox, Grid, Media Queries)
+- Git & GitHub
+- GitHub Pages
+## Individual Contributions Sample
+###  Nafeesa Shameem
+- Implemented landing page HTML structure
+- Created responsive navigation bar
+- [List other specific contributions]
+### Siri Virshini Maruboina
+- Designed and implemented color scheme
+- Created footer component
+- [List other specific contributions]
+### Sara Yeamin Khan
+- Implemented hero section styling
+- Made site responsive for mobile devices
+- [List other specific contributions]
+  ### Uswa Tariq
+  -
