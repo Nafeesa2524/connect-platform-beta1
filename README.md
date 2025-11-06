@@ -22,10 +22,10 @@ implements. (Refer to BMC document)
 ###  Siri Varshini and Nafeesa Shameem
 - Implemented landing page HTML structure
 - Created responsive navigation bar
-### Sara Yeamin Khan
+- Implemented hero section styling
 - Designed and implemented color scheme
+### Sara Yeamin Khan
 - Created footer component
 ### Uswa Tariq
-- Implemented hero section styling
 - Made site responsive for mobile devices
 
