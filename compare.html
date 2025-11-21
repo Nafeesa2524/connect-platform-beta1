@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SwipeHire — Compare</title>
+  <link rel="stylesheet" href="CSS/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner container">
+      <div class="brand"><img src="images/logo.png" alt="SwipeHire logo" class="logo"><span class="brand-text">SwipeHire</span></div>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="profile.html" class="nav-link">Profile</a>
+        <a href="match.html" class="nav-link">Match</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="panel" aria-labelledby="compare-title">
+      <h2 id="compare-title">Comparison</h2>
+
+      <div class="compare-grid">
+        <div class="compare-card" aria-label="Job requirements">
+          <h3>Job Requirements</h3>
+          <ul>
+            <li>Python</li>
+            <li>Excel</li>
+            <li>Data Analysis</li>
+            <li>Machine Learning</li>
+          </ul>
+        </div>
+
+        <div class="compare-card" aria-label="Your skills">
+          <h3>Your Skills</h3>
+          <ul>
+            <li>Python</li>
+            <li>React</li>
+            <li>Data Analysis</li>
+            <li>Machine Learning</li>
+          </ul>
+        </div>
+      </div>
+
+      <div style="margin-top:18px;">
+        <p class="center"><strong>Compatibility:</strong> 75%</p>
+      </div>
+
+      <div style="margin-top:18px;display:flex;gap:18px;justify-content:center;flex-wrap:wrap;">
+        <a href="profile.html" class="btn btn-primary">TAKE IT</a>
+        <a href="match.html" class="btn btn-ghost">LEAVE IT</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <small>© <span id="year"></span> SwipeHire</small>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
