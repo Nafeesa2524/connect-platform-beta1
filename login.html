@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SwipeHire — Login</title>
+  <link rel="stylesheet" href="CSS/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner container">
+      <div class="brand"><img src="images/logo.png" alt="SwipeHire logo" class="logo"><span class="brand-text">SwipeHire</span></div>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="login.html" class="nav-link active">Login</a>
+        <a href="profile.html" class="nav-link">Profile</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="panel" aria-labelledby="login-heading">
+      <h2 id="login-heading">Log In</h2>
+      <!-- IMPORTANT: form submission goes to terms.html (forced flow) -->
+      <form class="form" action="terms.html" method="get" aria-describedby="login-desc">
+        <p id="login-desc" class="muted">Enter your email and password. After logging in you will be asked to accept Terms & Conditions.</p>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" placeholder="Password" required>
+
+        <div class="form-row">
+          <a class="muted" href="#">Forgot Password?</a>
+          <button class="btn btn-primary" type="submit" id="loginBtn">Sign In</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <small>© <span id="year"></span> SwipeHire</small>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

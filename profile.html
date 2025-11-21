@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SwipeHire — Profile</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-inner container">
+      <div class="brand">
+        <img src="images/logo.png" alt="SwipeHire logo" class="logo">
+        <span class="brand-text">SwipeHire</span>
+      </div>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="profile.html" class="nav-link active">Profile</a>
+        <a href="match.html" class="nav-link">Match</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="panel profile-panel" aria-labelledby="profile-title">
+
+      <div class="profile-header" style="display:flex;justify-content:space-between;align-items:center">
+        <h2 id="profile-title">Profile</h2>
+        <a href="match.html" class="btn btn-secondary" id="findMatchBtn">Find Your Match</a>
+      </div>
+
+      <!-- PERSONAL INFORMATION -->
+      <div class="card info-card" aria-labelledby="personal-title">
+        <h4 id="personal-title">Personal Information</h4>
+        <p><strong>Name:</strong> Student Name</p>
+        <p><strong>Location:</strong> Lubbock, TX</p>
+      </div>
+
+      <!-- ⭐ ADDED: LET’S GET TO KNOW YOU SECTION ⭐ -->
+      <div class="card info-card">
+        <h4>Let’s Get To Know You</h4>
+
+        <p>Please upload a short one-minute video about “Who You Are”:</p>
+
+        <!-- UPLOAD BUTTONS -->
+        <div class="upload-buttons" style="display:flex;gap:12px;margin:12px 0;">
+          <button class="small-btn">From Computer</button>
+          <button class="small-btn">From Web</button>
+        </div>
+
+        <!-- CHECKBOX -->
+        <label class="checkbox-area" style="display:block;margin:10px 0;">
+          <input type="checkbox"> By checking this box, you are accepting the Terms & Conditions
+        </label>
+
+        <a href="terms.html" class="tnc-btn">Terms and Conditions</a>
+
+        <!-- TWO COLUMN SKILLS / EXAMPLES -->
+        <div class="two-column" style="display:flex;gap:20px;margin-top:25px;">
+
+          <!-- LEFT: UPLOAD BOX -->
+          <div class="sub-card" style="flex:1; padding:15px; border:2px solid #8b00ff; border-radius:10px;">
+            <div class="sub-heading" style="background:#eac7ff;padding:8px 12px;border-radius:8px;">Upload</div>
+            <p>You can upload your introduction video here.</p>
+          </div>
+
+          <!-- RIGHT: SKILL EXAMPLES -->
+          <div class="sub-card" style="flex:1; padding:15px; border:2px solid #8b00ff; border-radius:10px;">
+            <div class="sub-heading" style="background:#eac7ff;padding:8px 12px;border-radius:8px;">Examples</div>
+            <ul class="example-list" style="line-height:1.7;">
+              <li>Skill Set</li>
+              <li>Experience</li>
+              <li>Style of Work (Home / Office)</li>
+              <li>Special Talents</li>
+              <li>Recognition</li>
+              <li>ETC</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- HISTORY -->
+      <div class="card history-card" aria-labelledby="history-title">
+        <h4 id="history-title">History</h4>
+        <ul class="history-list" aria-label="History items">
+          <li>Feedback Forms</li>
+          <li>Companies Applied To</li>
+          <li>Resumes</li>
+          <li>Mock Interviews</li>
+          <li>Wishlist</li>
+          <li>Goals</li>
+          <li>Connections</li>
+          <li>Cover Letters</li>
+        </ul>
+      </div>
+
+      <div style="margin-top:18px;">
+        <a href="match.html" class="btn btn-primary">Find Your Match</a>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <small>© <span id="year"></span> SwipeHire</small>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
