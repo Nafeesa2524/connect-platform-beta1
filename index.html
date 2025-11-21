@@ -1,1 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SwipeHire — Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header" role="banner">
+    <div class="header-inner container">
+      <div class="brand" aria-label="SwipeHire brand">
+        <img src="images/logo.png" alt="SwipeHire logo" class="logo">
+        <span class="brand-text">SwipeHire</span>
+      </div>
+      <nav class="nav" role="navigation" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="login.html" class="nav-link">Login</a>
+        <a href="terms.html" class="nav-link">Terms</a>
+        <a href="profile.html" class="nav-link">Profile</a>
+        <a href="match.html" class="nav-link">Match</a>
+        <a href="compare.html" class="nav-link">Compare</a>
+      </nav>
+    </div>
+  </header>
 
+  <main class="container">
+    <section class="hero" aria-labelledby="hero-title">
+      <h2 id="hero-title" class="welcome">WELCOME TO</h2>
+      <h1 class="big-title">SwipeHire</h1>
+      <p class="subtitle">A smarter, more human way to find your next job.</p>
+
+      <div class="home-cards" role="region" aria-label="Quick actions">
+        <a class="home-card" href="profile.html" aria-label="Go to Account">
+          <div class="home-icon" aria-hidden="true">👤</div>
+          <div class="home-label">Account</div>
+        </a>
+
+        <a class="home-card" href="profile.html" aria-label="Build your profile">
+          <div class="home-icon" aria-hidden="true">✉️</div>
+          <div class="home-label">Build Your Profile</div>
+        </a>
+
+        <a class="home-card" href="terms.html" aria-label="More information">
+          <div class="home-icon" aria-hidden="true">ℹ️</div>
+          <div class="home-label">More Information</div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <small>© <span id="year"></span> SwipeHire Prototype — For class project</small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

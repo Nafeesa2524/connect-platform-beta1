@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SwipeHire — Find Your Match</title>
+  <link rel="stylesheet" href="CSS/styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-inner container">
+      <div class="brand">
+        <img src="images/logo.png" alt="SwipeHire logo" class="logo">
+        <span class="brand-text">SwipeHire</span>
+      </div>
+
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="profile.html" class="nav-link">Profile</a>
+        <a href="match.html" class="nav-link active">Match</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="panel match-panel" aria-labelledby="match-title">
+      <h2 id="match-title">Find Your Match</h2>
+
+      <!-- JOB LIST START -->
+      <div class="job-list">
+
+        <!-- JOB 1 -->
+        <article class="job-item">
+          <div class="job-header">
+            <div class="job-logo">🟦</div>
+            <div>
+              <h3 class="company">Microsoft</h3>
+              <p class="apply-by">Apply by December 10, 2025</p>
+            </div>
+          </div>
+
+          <h4 class="role">Data Analyst</h4>
+          <p class="quick">Major: Computer Science | Skills: Excel + SQL + Python</p>
+          <ul class="job-details">
+            <li>Location: Remote / Dallas, TX</li>
+            <li>Hours: 10–12</li>
+            <li>Pay: $20–26</li>
+          </ul>
+        </article>
+
+        <!-- JOB 2 -->
+        <article class="job-item">
+          <div class="job-header">
+            <div class="job-logo">🍎</div>
+            <div>
+              <h3 class="company">Apple</h3>
+              <p class="apply-by">Apply by November 15, 2025</p>
+            </div>
+          </div>
+
+          <h4 class="role">Software Engineer</h4>
+          <p class="quick">Major: Computer Science | Skills: Python + Swift + SQL</p>
+          <ul class="job-details">
+            <li>Location: Remote / Lubbock, TX</li>
+            <li>Hours: 12–15</li>
+            <li>Pay: $22–28</li>
+          </ul>
+        </article>
+
+      </div>
+      <!-- JOB LIST END -->
+
+      <div style="margin-top: 20px; text-align:center;">
+        <a href="compare.html" class="btn btn-primary">Continue</a>
+      </div>
+
+      <p class="muted" style="margin-top:10px; text-align:center;">
+        Click "Continue" to compare jobs.
+      </p>
+
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <small>© <span id="year"></span> SwipeHire</small>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
