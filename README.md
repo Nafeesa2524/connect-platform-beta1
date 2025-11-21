@@ -28,3 +28,6 @@ implements. (Refer to BMC document)
 - Created footer component
 ### Uswa Tariq
 - Made site responsive for mobile devices
+- [List other specific contributions]
+  ### Uswa Tariq
+  -
