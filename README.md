@@ -19,15 +19,19 @@ implements. (Refer to BMC document)
 - Git & GitHub
 - GitHub Pages
 ## Individual Contributions Sample
-###  Siri Varshini and Nafeesa Shameem
+###  Siri Varshini 
 - Implemented landing page HTML structure
 - Created responsive navigation bar
+- Added the rest required html structure
+### Nafeesa 
 - Implemented hero section styling
 - Designed and implemented color scheme
+- Did the remainaing css code
 ### Sara Yeamin Khan
 - Created footer component
 ### Uswa Tariq
 - Made site responsive for mobile devices
 - [List other specific contributions]
-  ### Uswa Tariq
-  -
+  
+
+  
